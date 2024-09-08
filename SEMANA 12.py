@@ -116,4 +116,14 @@ for ciudad_idx, ciudad in enumerate(temperaturas):
         suma_temperaturas = sum([dia["temp"] for dia in semana])
         promedio = suma_temperaturas / len(semana)
         print(f'Promedio de temperaturas en {ciudades[ciudad_idx]}, Semana {semana_idx}: {promedio}')
-        
+
+
+#RESPUESTA DE LOS PROMEDIOS DE TEMPERATURAS 
+Promedio de temperaturas en Ciudad 1, Semana 3: 32.714285714285715
+Promedio de temperaturas en Ciudad 2, Semana 0: 27.428571428571427
+Promedio de temperaturas en Ciudad 2, Semana 1: 25.857142857142858
+Promedio de temperaturas en Ciudad 2, Semana 2: 26.0
+Promedio de temperaturas en Ciudad 2, Semana 3: 26.142857142857142
+Promedio de temperaturas en Ciudad 3, Semana 0: 26.714285714285715
+Promedio de temperaturas en Ciudad 3, Semana 1: 25.571428571428573
+Promedio de temperaturas en Ciudad 3, Semana 2: 25.857142857142858
