@@ -1,0 +1,20 @@
+#Escribir en el archivo
+
+with open('my_notes.txt', 'w') as file:
+    file.write('Primera nota: Estudiar para el examen de matemáticas.\n')
+
+# Leer el archivo
+with open('my_notes.txt', 'r') as file:
+    content = file.read()
+    print('Contenido actual del archivo:')
+    print(content)
+
+# Agregar más contenido
+with open('my_notes.txt', 'a') as file:
+    file.write('Segunda nota: Hacer ejercicio a las 7 AM.\n')
+
+# Leer el archivo después de agregar más contenido
+with open('my_notes.txt', 'r') as file:
+    updated_content = file.read()
+    print('\nContenido actualizado del archivo:')
+    print(updated_content)
